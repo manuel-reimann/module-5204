@@ -1,0 +1,54 @@
+/* === Small CSS Reset === */
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  --pri-color: #ff8401;
+  --sec-color: #01c041;
+  --pri-font: "Oswald", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: -webkit-fill-available;
+  background: rgb(255, 162, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 162, 12, 0.5494791666666667) 0%,
+    rgba(0, 235, 19, 0.3870141806722689) 100%
+  );
+  overflow-x: hidden;
+}
+/* Backgrounds for few sites */
+.splash {
+  background-image: url("assets/images/chilli-2438001_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.splash-2 {
+  background-image: url("assets/images/pexels-engin-akyurt-2894234.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.splash-3 {
+  background-image: url("assets/images/pexels-roman-odintsov-6342150.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
